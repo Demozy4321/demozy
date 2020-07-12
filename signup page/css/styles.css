@@ -1,0 +1,76 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-image: url("../images/83969.jpg");
+  background-size: cover;
+  background-position: top;
+}
+
+.container{
+  width: 30%;
+  background: rgba(240, 224, 224, 0.5) ;
+  margin: 12% auto 0 auto;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 1rem;
+}
+
+hr{
+  background-color: rgba(0, 0, 0, 1);
+  border-bottom: 0;
+  height: 1.5px;
+}
+
+/* BUTTONS */
+
+.fb-button{
+  border: none;
+  border-radius: 0.625rem;
+  padding: 0.625rem 1rem;
+  background: rgb(52, 126, 238);
+  cursor: pointer;
+  box-shadow: 0 5px rgba(32, 32, 32, 0.59);
+  outline: none;
+}
+
+.fb-button:active{
+    transform: translateY(3px);
+}
+
+.submit{
+  padding: 0.5rem 1rem;
+  border-radius: 0.625rem;
+  border: none;
+  background: rgb(228, 148, 47, 0.6);
+  cursor: pointer;
+  box-shadow: 0 5px rgba(32, 32, 32, 0.59);
+  outline: none;
+}
+
+.submit:active{
+  transform: translateY(3px);
+}
+
+
+/* INPUTS */
+
+input{
+  width: 80%;
+  padding: 0.5rem;
+  border: none;
+}
+
+input[type=checkbox]{
+  width: auto;
+  margin: 7px 2px 0 0;
+}
+
+/* ANCHOR TAG */
+.container a{
+  margin: 0;
+  text-decoration: none;
+}
