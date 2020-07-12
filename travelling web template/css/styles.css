@@ -1,0 +1,85 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main{
+  background-image: url(../images/737474.png);
+  background-size: cover;
+  height: 100vh
+  /* background-position: top; */
+   /* overflow: hidden; */
+}
+
+.content .container-fluid{
+  text-align: center;
+  padding: 7% 15%;
+}
+
+.container-fluid h1{
+  font-size: 3.5rem;
+  color: #fff;
+  padding-bottom: 30px;
+}
+
+.container-fluid h3{
+  color: rgb(190, 189, 189);
+  padding-bottom: 50px;
+}
+
+/* BUTTONS */
+
+.navbar-toggler{
+  color: #fff;
+}
+
+.content-btn{
+  margin: auto 2%;
+}
+
+
+/* NAVIGATION BAR */
+
+.navigation{
+  background-color: rgb(0, 0, 0);
+  text-decoration: none
+}
+
+.navigation a{
+  color: #fff;
+
+}
+
+.navigation a:hover{
+  color: rgb(205, 203, 204);
+}
+
+
+/* FOOTER SECTION */
+
+#footer{
+  position: absolute;
+  bottom: 1%;
+}
+
+.footer-label1,.footer-label2, .footer-heading{
+  display: inline;
+  color: rgb(190, 189, 189);
+}
+
+.footer-heading{
+  margin: auto 15% auto 15%;
+}
+
+.footer-label1{
+  margin-right: 0.5%;
+}
+
+.footer-label2{
+  margin: auto 0.5% auto 2%;
+}
+
+.btn-search{
+  margin-left: 1%;
+}
