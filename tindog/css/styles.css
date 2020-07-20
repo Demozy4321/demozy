@@ -1,0 +1,197 @@
+body{
+  font-family: "Montserrat";
+}
+
+/* TITLE SECTION */
+
+#title{
+  background-color: #ff4c68;
+}
+
+#title h1{
+  font-family: "Montserrat";
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight: 900;
+  color: #fff;
+}
+
+.container-fluid{
+  padding: 3% 15% 5% 15%;
+}
+
+
+/* NAVIGATION BAR */
+
+.navbar{
+  padding:0 0 4.5rem 0;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-item .nav-link{
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+  /* font-weight: 200; */
+}
+
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+}
+
+/* DOWNLOAD BUTTONS */
+
+.download-btn{
+  margin: 5% 3% 5% 0;
+}
+
+
+/* PHONE IMAGE */
+
+.phone{
+  width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+  top: 5%;
+}
+
+
+
+/* FEATURES */
+
+#features{
+  background-color: #fff;
+  position: relative;
+}
+
+#features .container-fluid{
+  padding: 7% 15%;
+}
+
+.features-box{
+  text-align: center;
+  padding: 5%;
+}
+
+#features h3{
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+#features p{
+  color: #8f8f8f;
+}
+#features .icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+#features .icon:hover{
+  color: #ff4c68;
+}
+
+
+/* TESTIMONIALS */
+
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+#testimonials h2{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+.testimonials-img{
+  width: 20%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+
+/* PRESS SECTION  */
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-img{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+}
+
+/* PRICING SECTION */
+
+#pricing{
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-col{
+  padding: 3% 2%;
+}
+
+/* CTA SECTION */
+
+#cta{
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+#cta h3{
+  font-family: "Montserrat";
+  font-weight: 900;
+  color: #fff;
+  font-size: 3.5rem;
+}
+
+#cta .container-fluid{
+  padding: 10% 7%;
+}
+
+.cta-btn{
+  margin: 5% 1% 0;
+}
+/* FOOTER SECTION */
+
+#footer{
+  background-color: #fff;
+  text-align: center;
+  padding: 5% 7%;
+}
+
+.footer-icons{
+  padding: 0 0.5rem 1.5rem;
+}
+
+#footer p{
+  color: #8f8f8f;
+}
+
+
+/* MEDIA QUERRIES */
+
+@media (max-width: 1000px){
+  #title{
+    text-align: center;
+  }
+
+  .phone{
+    position: static;
+    transform: rotate(0);
+  }
+
+}
